@@ -71,5 +71,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 ## Comando no Terminal para iniciar o node.js
-npx create-react-app .
+npx create-react-app .\
 npm start
