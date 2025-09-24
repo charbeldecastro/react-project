@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const Input = styled.input`
-    border: 1px solid #FFF;
+    order: 1px solid #FFF;
     background: transparent;
     border: 1px solid #FFF;
     padding: 20px 140px;
@@ -9,13 +9,11 @@ const Input = styled.input`
     width: 200px;
     color: #FFF;
     font-size: 16px;
-    margin-bottom: 10px;
-    transition: all 0.3s ease;
-    outline: none;
-    
+    margin-bottom: 30px;
+
     &::placeholder {
-      color: #FFF;
-      font-size: 16px;
+        color: #FFF;
+        font-size: 16px;
     }
 `
 
