@@ -23,12 +23,14 @@ function UltimosLancamentos() {
                 cor={"#EB9B00"}
                 tamanhoFonte={"36px"} 
             >
-                ÚLTIMOS LANÇAMENTOS</Titulo>
+                ÚLTIMOS LANÇAMENTOS
+            </Titulo>
             <NovosLivrosContainer>
                 { livros.map( livro => (
                     <img src={livro.src}/>
                 ) ) }
             </NovosLivrosContainer>
+            
         </UltimosLancamentosContainer>
     )
 }
