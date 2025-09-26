@@ -1,5 +1,7 @@
 import { livros } from './dadosUltimosLancamentos'
 import { Titulo } from '../Titulo'
+import CardRecomenda from '../CardRecomenda'
+import imagemLivro from '../../imagens/livro2.png'
 import styled from 'styled-components'
 
 const UltimosLancamentosContainer = styled.section`
@@ -16,12 +18,14 @@ const NovosLivrosContainer = styled.div`
     cursor: pointer;
 `
 
+// ...
+
 function UltimosLancamentos() {
     return (
         <UltimosLancamentosContainer>
-            <Titulo 
+            <Titulo
                 cor={"#EB9B00"}
-                tamanhoFonte={"36px"} 
+                tamanhoFonte={"36px"}
             >
                 ÚLTIMOS LANÇAMENTOS
             </Titulo>
@@ -30,7 +34,18 @@ function UltimosLancamentos() {
                     <img src={livro.src}/>
                 ) ) }
             </NovosLivrosContainer>
-            
+            <CardRecomenda
+                titulo="Talvez você se interesse por"
+                subtitulo="Angular 11"
+                descricao="Construindo uma aplicação com a plataforma Google"
+                img={imagemLivro}
+            />
+            <CardRecomenda
+                titulo="Talvez você se interesse por"
+                subtitulo="Angular 11"
+                descricao="Construindo uma aplicação com a plataforma Google"
+                img={imagemLivro}
+            />
         </UltimosLancamentosContainer>
     )
 }
