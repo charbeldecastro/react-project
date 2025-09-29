@@ -7,7 +7,7 @@ const Card = styled.div`
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     display: flex;
-    margin: 0 auto 20px auto; /* aqui adiciona espaço entre os cards */
+    margin: 0 auto 30px auto; /* aqui adiciona espaço entre os cards */
     max-width: 600px;
     padding: 25px 20px;
     justify-content: space-around;
