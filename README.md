@@ -2,7 +2,7 @@
 # Alura Books
 Projeto de estudo do framework React feito em acompanhamento do curso React - Crie sua primeira página web.
 
-Documentações: 
+🔗 Documentações: 
 
 - Instalação React: https://pt-br.react.dev/learn
 
@@ -63,6 +63,94 @@ Nela, aprendi a criar meu próprio projeto React, começando pela criação de u
 
 - Começamos o projeto pelo Header, o menu superior. Foi criado a pasta `header` dentro pasta `componentes`. 
 Dentro da pasta `header` foi criado o arquivo `index.js`
+#
+# Styled Components
+
+## 📚 O que é?
+
+**Styled-components** é uma biblioteca para React que permite escrever CSS dentro do JavaScript. Com ela, você cria componentes estilizados diretamente no código, sem precisar de arquivos `.css` separados.
+
+## 🔧 Instalação
+
+Para instalar o styled-components no seu projeto, execute um dos comandos abaixo no terminal:
+
+**Usando npm:**
+```bash
+npm install styled-components
+```
+
+**Usando yarn:**
+```bash
+yarn add styled-components
+```
+
+## 💻 Como usar
+
+### 1. Importe a biblioteca no seu componente:
+```javascript
+import styled from 'styled-components'
+```
+
+### 2. Crie componentes estilizados:
+```javascript
+const HeaderContainer = styled.header`
+  background-color: #fff;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+`
+```
+
+### 3. Use no JSX como um componente normal:
+```javascript
+function Header() {
+  return (
+    <HeaderContainer>
+      <Logo />
+      <OpcoesHeader />
+    </HeaderContainer>
+  )
+}
+```
+
+## ✅ Vantagens
+
+- **CSS-in-JS**: Mantém estilos e lógica no mesmo arquivo
+- **Estilos dinâmicos**: Permite usar props e JavaScript para estilização condicional
+- **Escopo automático**: Evita conflitos de nomes de classes CSS
+- **Componentização**: Cada componente tem seu próprio estilo encapsulado
+- **Manutenção facilitada**: Fácil de encontrar e modificar estilos
+
+## 📖 Exemplo completo
+
+```javascript
+import styled from 'styled-components'
+import Logo from './Logo'
+import Menu from './Menu'
+
+const HeaderContainer = styled.header`
+  background-color: #002F52;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+`
+
+function Header() {
+  return (
+    <HeaderContainer>
+      <Logo />
+      <Menu />
+    </HeaderContainer>
+  )
+}
+
+export default Header
+```
+
+## 🔗 Documentação oficial
+
+Para mais informações, acesse: [styled-components.com](https://styled-components.com/)
 
 
 

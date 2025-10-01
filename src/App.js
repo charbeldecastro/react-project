@@ -16,7 +16,7 @@ function App() {
       <Pesquisa />
       <UltimosLancamentos />
     </AppContainer>
-  );
+  )
 }
 
 export default App
