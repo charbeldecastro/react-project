@@ -151,7 +151,3 @@ export default Header
 ## 🔗 Documentação oficial
 
 Para mais informações, acesse: [styled-components.com](https://styled-components.com/)
-
-
-
-teste somente test
