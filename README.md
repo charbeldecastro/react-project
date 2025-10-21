@@ -178,3 +178,5 @@ const urlAmigavel = texto.toLowerCase();
 ## 🔗 Documentação oficial
 
 Para mais informações, acesse: [styled-components.com](https://styled-components.com/)
+
+React: [React Community](https://react.dev/community)
