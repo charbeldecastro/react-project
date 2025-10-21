@@ -14,6 +14,8 @@ Projeto de estudo do framework React feito em acompanhamento do curso React - Cr
 
 - Página oficial do Node: https://nodejs.org/en/download
 
+- React: [React Community](https://react.dev/community)
+
 #
 ## O que é o React
 React é uma biblioteca JavaScript de código aberto, mantida pelo Facebook (Meta), utilizada para construir interfaces de usuário (UI) de forma declarativa e eficiente, focando em componentes reutilizáveis e um sistema de renderização baseado no Virtual DOM.
@@ -179,4 +181,4 @@ const urlAmigavel = texto.toLowerCase();
 
 Para mais informações, acesse: [styled-components.com](https://styled-components.com/)
 
-React: [React Community](https://react.dev/community)
+
