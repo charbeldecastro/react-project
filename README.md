@@ -45,7 +45,7 @@ se transforma em
 
 #
 ## Comandos úteis
-Nela, aprendi a criar meu próprio projeto React, começando pela criação de uma pasta para o projeto, acessando-a pelo Visual Studio Code, criando a aplicação pelo terminal com o comando `npx create-react-app .` Gera automaticamente todos os arquivos e pastas necessários para um novo projeto React.  Baixa e configura todas as dependências e ferramentas (como Webpack e Babel) para a desenvolver uma aplicação React. O comando `npm start` roda a aplicação, acessando-a em http://localhost:3000. 
+Nela, aprendi a criar meu próprio projeto React, começando pela criação de uma pasta para o projeto, acessando-a pelo Visual Studio Code, criando a aplicação pelo terminal com o comando `npx create-react-app .` Gera automaticamente todos os arquivos e pastas necessários para um novo projeto React.  Baixa e configura todas as dependências e ferramentas (como Webpack e Babel) para a desenvolver uma aplicação React. O comando `npm start` ou `npm run start` roda a aplicação, acessando-a em http://localhost:3000. 
 
 <div style="background-color: #ffffffff; border-left: 6px solid #ffcc00ff; padding: 10px; color: #000000ff
 ">
@@ -82,6 +82,12 @@ npm install styled-components
 **Usando yarn:**
 ```bash
 yarn add styled-components
+```
+
+**React Router DOM:**
+```bash
+# Usando npm
+npm install react-router-dom
 ```
 
 ## 💻 Como usar
