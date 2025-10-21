@@ -154,6 +154,27 @@ function Header() {
 export default Header
 ```
 
+## Padronização de URLs com toLowerCase()
+
+### Contexto
+O React não diferencia maiúsculas de minúsculas nas rotas (não é case sensitive). Isso significa que `/Produtos` e `/produtos` seriam tratados da mesma forma. Porém, para seguir as boas práticas da web e deixar nossas URLs mais elegantes, é recomendado mantê-las sempre em minúsculas.
+
+### A Solução
+Utilizamos o método `.toLowerCase()` para converter automaticamente o texto das opções da lista para minúsculas na URL:
+```javascript
+const urlAmigavel = texto.toLowerCase();
+```
+
+### Exemplo Prático
+- **Na lista (interface):** Produtos, Serviços, Contato
+- **Na URL (navegador):** /produtos, /servicos, /contato
+
+### Por Que Fazer Isso?
+- 🎯 **Padrão Web:** URLs em minúsculas são convenção universal
+- 🔍 **SEO:** Mecanismos de busca preferem URLs padronizadas
+- 👥 **Profissionalismo:** Interface mais limpa e consistente
+- 📱 **Compatibilidade:** Alguns servidores diferenciam maiúsculas/minúsculas
+
 ## 🔗 Documentação oficial
 
 Para mais informações, acesse: [styled-components.com](https://styled-components.com/)
